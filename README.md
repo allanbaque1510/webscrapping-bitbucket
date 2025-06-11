@@ -33,19 +33,19 @@ Este proyecto realiza un **Web Scraping** de Bitbucket para obtener datos espec�
 
 ### 🖥️ Entrada: URL proporcionada por el usuario
 
-![Ingreso URL](docs/img/1-url-input.png)
+![Ingreso URL](img/url-input.png)
 
 ---
 
 ### 🌐 Navegación automática con Selenium
 
-![Selenium ejecutando Edge](docs/img/2-selenium-bitbucket.png)
+![Selenium ejecutando Edge](img/selenium-bitbucket.png)
 
 ---
 
 ### 📊 Salida en Excel con hipervínculos y agrupación por directorio
 
-![Excel con resultados](docs/img/3-excel-output.png)
+![Excel con resultados](/img/excel-output.png)
 
 ---
 
@@ -64,5 +64,16 @@ Este proyecto realiza un **Web Scraping** de Bitbucket para obtener datos espec�
 
 ```bash
 pip install selenium beautifulsoup4 xlsxwriter webdriver-manager
+```
+2. Asegúrate de tener Microsoft Edge instalado en tu sistema.
 
+3. Ejecuta el script:
+```bash
+python bitbucket_request_prueba.py
+```
+4. Cuando el programa lo solicite, ingresa una URL válida de un commit de Bitbucket.
+
+5. El navegador Edge se abrirá automáticamente, navegará a la URL, extraerá los datos y generará un archivo llamado:
+**documentacion bitbucket.xlsx**
+6. Abre el archivo Excel generado para ver los resultados agrupados por directorio, con los nombres de archivos y enlaces de acceso directo.
 
