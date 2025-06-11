@@ -66,14 +66,14 @@ Este proyecto realiza un **Web Scraping** de Bitbucket para obtener datos espec�
 pip install selenium beautifulsoup4 xlsxwriter webdriver-manager
 ```
 2. Asegúrate de tener Microsoft Edge instalado en tu sistema.
-
-3. Ejecuta el script:
+3. Modifica el script e ingresa las cookies de acceso de tu cuenta bitbucket, y la url de tu proyecto.
+4. Ejecuta el script:
 ```bash
 python bitbucket_request_prueba.py
 ```
-4. Cuando el programa lo solicite, ingresa una URL válida de un commit de Bitbucket.
+5. Cuando el programa lo solicite, ingresa una URL válida de un commit de Bitbucket.
 
-5. El navegador Edge se abrirá automáticamente, navegará a la URL, extraerá los datos y generará un archivo llamado:
+6. El navegador Edge se abrirá automáticamente, navegará a la URL, extraerá los datos y generará un archivo llamado:
 **documentacion bitbucket.xlsx**
-6. Abre el archivo Excel generado para ver los resultados agrupados por directorio, con los nombres de archivos y enlaces de acceso directo.
+7. Abre el archivo Excel generado para ver los resultados agrupados por directorio, con los nombres de archivos y enlaces de acceso directo.
 
