@@ -39,13 +39,13 @@ Este proyecto realiza un **Web Scraping** de Bitbucket para obtener datos espec�
 
 ### 🌐 Navegación automática con Selenium
 
-![Selenium ejecutando Edge](img/selenium-bitbucket.png)
+![Selenium ejecutando Edge](img/selenium.png)
 
 ---
 
 ### 📊 Salida en Excel con hipervínculos y agrupación por directorio
 
-![Excel con resultados](/img/excel-output.png)
+![Excel con resultados](img/excel.png)
 
 ---
 
